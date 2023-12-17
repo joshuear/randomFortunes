@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 500px;
+}
+
+header h1 {
+ text-align: center;
+ background-color: white;
+ letter-spacing: 30px;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+p {
+  text-align: center;
+  height: 150px;
+  width: 500px;
+  padding: 40px 35px 0 35px;
+}
